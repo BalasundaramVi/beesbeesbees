@@ -7,7 +7,7 @@ var RetiredForagerBee = function() {
 
 };
 
-RetiredForagerBee.prototype = Object.create(ForagerBee);
+RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
 
 RetiredForagerBee.prototype.constructor = RetiredForagerBee;
 
